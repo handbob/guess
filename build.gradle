@@ -1,0 +1,25 @@
+plugins {
+	id 'application'
+}
+
+group = 'io.github.handbob'
+version = '1.0.0'
+sourceCompatibility = '17'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+    
+}
+
+application {
+	mainClass = 'io.github.handbob.guess.Main'
+}
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'io.github.handbob.guess.Main'
+	}
+}
