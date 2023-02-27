@@ -4,12 +4,12 @@
 [Java](https://adoptium.net), [Maven](https://maven.apache.org)
 
 ### Build & Run project
-#### Build
+#### Build Jar File
 * Windows, MacOS/Linux
 ```
 mvn package
 ```
-#### Run Jar file
+#### Run Jar File
 * Windows, MacOS/Linux
 ```
 java -jar guess-1.0.0.jar
