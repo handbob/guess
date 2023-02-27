@@ -1,14 +1,13 @@
 # Interactive commandLine guess the number
 
 ### Requirements
-[Java](https://adoptium.net), [Gradle](https://gradle.org)
+[Java](https://adoptium.net), [Maven](https://maven.apache.org)
 
 ### Build & Run project
-
 #### Build
 * Windows, MacOS/Linux
 ```
-gradle build
+mvn package
 ```
 #### Run Jar file
 * Windows, MacOS/Linux
